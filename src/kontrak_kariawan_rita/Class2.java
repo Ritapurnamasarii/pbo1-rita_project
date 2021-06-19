@@ -4,8 +4,8 @@ import kariawan_rita.Class1;
 
 public class Class2 extends Class1 {
     //pembuatan 3 atribut
-    public String bidang;
-    public int join,kontrak;
+    private String bidang;
+    private int join,kontrak;
 
     //method
     public void Bidang(){
@@ -13,6 +13,28 @@ public class Class2 extends Class1 {
     }
     public void masaKerja(){
         System.out.println("Masa Kerja "+getNama()+" akan berakhir pada tahun "+(join + kontrak));
+    }
+
+    //Setter
+    public void setBidang(String bidang){
+        this.bidang=bidang;
+    }
+    public void setJoin(int join){
+        this.join=join;
+    }
+    public void setKontrak(int kontrak){
+        this.kontrak=kontrak;
+    }
+
+    //Getter
+    public String getBidang(){
+        return bidang;
+    }
+    public int getJoin(){
+        return join;
+    }
+    public int getKontrak(){
+        return kontrak;
     }
 
 }
