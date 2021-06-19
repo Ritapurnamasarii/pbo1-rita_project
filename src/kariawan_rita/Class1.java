@@ -37,7 +37,7 @@ public class Class1 {
     }
     public void infoAbsen(){
         absen = 20 - masuk;
-        System.out.println(nama+" absen "+absen+" hari pada bulan ini");
+        System.out.println(nama+" absen "+absen+" hari dan masuk sebanyak "+masuk+" hari pada bulan ini");
     }
 
 
