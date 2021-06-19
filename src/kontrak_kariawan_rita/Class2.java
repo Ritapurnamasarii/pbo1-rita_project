@@ -9,10 +9,10 @@ public class Class2 extends Class1 {
 
     //method
     public void Bidang(){
-        System.out.println(nama+" memiliki keahliah di bidang "+bidang);
+        System.out.println(getNama()+" memiliki keahliah di bidang "+bidang);
     }
     public void masaKerja(){
-        System.out.println("Masa Kerja "+nama+" akan berakhir pada tahun "+(join + kontrak));
+        System.out.println("Masa Kerja "+getNama()+" akan berakhir pada tahun "+(join + kontrak));
     }
 
 }
