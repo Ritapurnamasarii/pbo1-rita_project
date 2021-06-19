@@ -37,4 +37,13 @@ public class Class2 extends Class1 {
         return kontrak;
     }
 
+    //overiding
+    public void Gajih(){
+        setGajih(getMasuk() * 2000000);
+        System.out.println("kariawan "+getNama()+" mendapatkan gajih sebesar Rp "+getGajih()+" pada bulan ini");
+    }
+    public void Desc(){
+        System.out.println("Kariawan "+getId()+" dengan nama lengkap "+getNama()+" lahir pada tanggal "+getTanggal_lahir()+" dengan kelamin "+getGender()+" Dan Berstatus sebagai kariawan KONTRAK" );
+    }
+
 }

@@ -91,7 +91,4 @@ public class Class1 {
     public long getGajih(){
         return gajih;
     }
-
-
-
 }
